@@ -8,8 +8,6 @@ from torchvision import datasets, transforms
 
 def get_data_loader(training = True):
     """
-    
-
     INPUT: 
         An optional boolean argument (default value is True for training dataset)
 
