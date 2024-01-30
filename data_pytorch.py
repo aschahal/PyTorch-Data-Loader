@@ -52,7 +52,7 @@ def build_model():
 
 def train_model(model, train_loader, criterion, T):
     """
-    TODO: implement this function.
+    
 
     INPUT: 
         model - the model produced by the previous function
