@@ -87,8 +87,6 @@ def train_model(model, train_loader, criterion, T):
 
 def evaluate_model(model, test_loader, criterion, show_loss = True):
     """
-    TODO: implement this function.
-
     INPUT: 
         model - the the trained model produced by the previous function
         test_loader    - the test DataLoader
@@ -119,8 +117,6 @@ def evaluate_model(model, test_loader, criterion, show_loss = True):
 
 def predict_label(model, test_images, index):
     """
-    TODO: implement this function.
-
     INPUT: 
         model - the trained model
         test_images   -  a tensor. test image set of shape Nx1x28x28
@@ -148,8 +144,4 @@ def predict_label(model, test_images, index):
 
 
 if __name__ == '__main__':
-    '''
-    Feel free to write your own test code here to exaime the correctness of your functions. 
-    Note that this part will not be graded.
-    '''
     criterion = nn.CrossEntropyLoss()
