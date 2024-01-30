@@ -32,7 +32,7 @@ def get_data_loader(training = True):
 
 def build_model():
     """
-    TODO: implement this function.
+
 
     INPUT: 
         None
