@@ -19,7 +19,7 @@ def get_data_loader(training = True):
         transforms.Normalize((0.1307,), (0.3081,))
         ])
     
-    # Use correct dataset based on training flag
+    # Uses correct dataset based on training flag
     if training:
         dataset = datasets.FashionMNIST('./data', train = True, download = True, transform = transform)
         loader = torch.utils.data.DataLoader(dataset, batch_size = 64, shuffle = True)
