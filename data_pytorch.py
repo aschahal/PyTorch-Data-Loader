@@ -52,8 +52,6 @@ def build_model():
 
 def train_model(model, train_loader, criterion, T):
     """
-    
-
     INPUT: 
         model - the model produced by the previous function
         train_loader  - the train DataLoader produced by the first function
