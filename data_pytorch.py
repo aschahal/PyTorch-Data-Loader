@@ -32,8 +32,6 @@ def get_data_loader(training = True):
 
 def build_model():
     """
-
-
     INPUT: 
         None
 
